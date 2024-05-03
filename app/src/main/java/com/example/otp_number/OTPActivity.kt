@@ -162,7 +162,7 @@ class OTPActivity : AppCompatActivity() {
     }
 
     private fun sendToMain() {
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, Container_activity::class.java))
     }
 
     private fun addTextChangeListener() {
